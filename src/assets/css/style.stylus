@@ -1,0 +1,26 @@
+// 首页轮播图控制器
+.index .van-swipe__indicator
+  width 20px
+  border-radius 2px
+
+// 首页搜索框
+.index .van-search
+  position absolute
+  width 100%
+  z-index 999
+
+// 搜索框背景颜色
+.index .van-search__content
+  background rgba(255, 255, 255, .4)
+
+// placeholder字体颜色
+.index .van-field__control::placeholder
+  color #fff
+
+// 放大镜颜色
+.index .van-icon-search
+  color #fff
+
+// 分类页放大镜
+.classify .van-icon-search
+  color #ccc
